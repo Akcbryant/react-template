@@ -6,6 +6,9 @@ module.exports = {
     path: __dirname,
     filename: 'index.js'
   },
+  devServer: {
+    inline: true,
+  },
   watch: true,
   module: {
     loaders: [

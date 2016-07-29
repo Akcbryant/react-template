@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "webpack": "webpack"
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "author": "akcbryant",
   "license": "ISC",
@@ -17,7 +17,8 @@
     "babel-preset-react": "^6.11.1",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
     "jest-cli": "^14.0.0"
