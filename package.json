@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akcbryant/react-template.git"
+  },
   "scripts": {
     "test": "jest",
     "start": "./node_modules/.bin/webpack-dev-server"
@@ -21,6 +25,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
-    "jest-cli": "^14.0.0"
+    "jest-cli": "^14.0.0",
+    "react-addons-test-utils": "^15.2.1"
   }
 }
