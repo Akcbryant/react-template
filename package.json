@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akcbryant/react-template.git"
+    "url": "https://github.com/akcbryant/react-template.git --hot --inline"
   },
   "scripts": {
     "test": "jest",
@@ -25,7 +25,12 @@
     "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
+    "css-loader": "^0.23.1",
     "jest-cli": "^14.0.0",
-    "react-addons-test-utils": "^15.2.1"
+    "node-sass": "^3.8.0",
+    "react-addons-test-utils": "^15.2.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
   }
 }
